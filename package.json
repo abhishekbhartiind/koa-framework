@@ -1,0 +1,21 @@
+{
+  "name": "koa-learning",
+  "version": "1.0.0",
+  "description": "Koa aims to \"fix and replace node\", whereas Express \"augments node\". - Koa uses `promises` and `async` functions to rid apps of callback hell and simplify error handling. - It exposes its own `ctx.request` and `ctx.response` objects instead of node's req and res objects. - Koa can be viewed as an abstraction of node.js's http modules, where as Express is an application framework for node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "koa",
+    "koa-router",
+    "koa-logger"
+  ],
+  "author": "Abhishek Bharti",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1"
+  }
+}
